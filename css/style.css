@@ -1,0 +1,36 @@
+h1 {
+    width: 100%;
+    color: #dfdfdf;
+}
+p {
+    color: #dfdfdf;
+}
+
+@font-face {
+    font-family: 'propagandaregular';
+    src: url('fonts/propaganda-webfont.woff2') format('woff2'),
+         url('fonts/propaganda-webfont.woff') format('woff'),
+         url('fonts/propaganda-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------ CLASS OVERRIDES ------*/
+
+.text-primary {
+    padding-top: 1em;
+    color: #dfdfdf;
+}
+
+.nav-item {
+    padding-left: 40px;
+}
+
+.navbar-brand {
+    font-family: 'propagandaregular';
+    font-size: 150%;
+    letter-spacing: 6px;
+}
+.navbar-dark {
+    background-color: #51dada;
+}
